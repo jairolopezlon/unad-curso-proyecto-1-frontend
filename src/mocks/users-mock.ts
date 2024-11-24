@@ -1,0 +1,42 @@
+export const usersMock = [
+  {
+    id: 1,
+    username: "admin",
+    email: "admin@ejemplo.com",
+    passwordHash: "hashedPassword123",
+    roleId: 1,
+    createdAt: new Date("2022-01-01"),
+  },
+  {
+    id: 2,
+    username: "encargado1",
+    email: "encargado1@ejemplo.com",
+    passwordHash: "hashedPassword456",
+    roleId: 2,
+    createdAt: new Date("2022-01-15"),
+  },
+  {
+    id: 3,
+    username: "usuario1",
+    email: "usuario1@ejemplo.com",
+    passwordHash: "hashedPassword789",
+    roleId: 3,
+    createdAt: new Date("2022-02-01"),
+  },
+  {
+    id: 4,
+    username: "usuario2",
+    email: "usuario2@ejemplo.com",
+    passwordHash: "hashedPassword012",
+    roleId: 3,
+    createdAt: new Date("2022-03-01"),
+  },
+  {
+    id: 5,
+    username: "usuario3",
+    email: "usuario3@ejemplo.com",
+    passwordHash: "hashedPassword345",
+    roleId: 3,
+    createdAt: new Date("2022-04-01"),
+  },
+];
